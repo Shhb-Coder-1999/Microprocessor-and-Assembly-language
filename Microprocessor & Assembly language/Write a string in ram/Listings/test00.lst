@@ -1,0 +1,170 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET , DATA , READONLY
+    2 00000000 10008000        DCD              0x10008000  ;
+    3 00000004 00000000        DCD              Reset_Handler ; 
+    4 00000008         
+    5 00000008                 AREA             MYCODE , CODE , READONLY
+    6 00000000         
+    7 00000000         ENTRY
+    8 00000000         Reset_Handler
+    9 00000000         ;    mov r0,#8
+   10 00000000         
+   11 00000000 490B            ldr              r1, =MyNameInROM
+   12 00000002 4C0C            ldr              r4, =MyNameInRAM
+   13 00000004 4D0B            ldr              r5, =MyNameInRAM
+   14 00000006         
+   15 00000006         TestNextByte
+   16 00000006 F991 2000       ldrsb            r2 ,[r1]    ; read first data f
+                                                            rom flash
+   17 0000000A 2A00            cmp              r2,#0       ;if r2==0 goto loop
+                                                             . why 0 ? couse 0 
+                                                            in our condition to
+                                                             break loop
+   18 0000000C D008            beq              loop
+   19 0000000E F101 0101       add              r1,#1       ;increment pointer
+   20 00000012 7022            strb             r2,[r4]     ;write data to ram
+   21 00000014 702A            strb             r2,[r5]     ;write data to ram
+   22 00000016         
+   23 00000016 F104 0401       add              r4,#1       ;add RAM pointer wi
+                                                            th 1
+   24 0000001A F105 0501       add              r5,#1       ;add RAM pointer wi
+                                                            th 1
+   25 0000001E E7F2            b                TestNextByte
+   26 00000020         
+   27 00000020         loop
+   28 00000020 E7FE            b                loop
+   29 00000022         
+   30 00000022 61 62 62 
+              61 73 20 
+              6C 61 6B 
+              69 00    MyNameInROM
+                               DCB              "abbas laki",0
+   31 0000002D 00 00 00 
+              00000000 
+              00000000 
+              00000000         AREA             MYData , DATA , READWRITE
+   32 00000000                 COMMON           MyNameInRAM ,12 ,4
+   33 00000000                 COMMON           MyBookInRAM ,12 ,4
+   34 00000000         
+   35 00000000                 end
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\test00.d -o.\objects\test00.o -I.\RTE\_Target_1 -I"D:\Pr
+ograms files\Keil\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include" -I"D:\Program
+s files\Keil\ARM\CMSIS\Include" --predefine="__UVISION_VERSION SETA 525" --pred
+efine="LPC175x_6x SETA 1" --list=.\listings\test00.lst test00.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file test00.s
+   Uses
+      None
+Comment: RESET unused
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 7 in file test00.s
+   Uses
+      None
+Comment: ENTRY unused
+MYCODE 00000000
+
+Symbol: MYCODE
+   Definitions
+      At line 5 in file test00.s
+   Uses
+      None
+Comment: MYCODE unused
+MyNameInROM 00000022
+
+Symbol: MyNameInROM
+   Definitions
+      At line 30 in file test00.s
+   Uses
+      At line 11 in file test00.s
+Comment: MyNameInROM used once
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 8 in file test00.s
+   Uses
+      At line 3 in file test00.s
+Comment: Reset_Handler used once
+TestNextByte 00000006
+
+Symbol: TestNextByte
+   Definitions
+      At line 15 in file test00.s
+   Uses
+      At line 25 in file test00.s
+Comment: TestNextByte used once
+loop 00000020
+
+Symbol: loop
+   Definitions
+      At line 27 in file test00.s
+   Uses
+      At line 18 in file test00.s
+      At line 28 in file test00.s
+
+6 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MYData 00000000
+
+Symbol: MYData
+   Definitions
+      At line 31 in file test00.s
+   Uses
+      None
+Comment: MYData unused
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+MyBookInRAM 00000000
+
+Symbol: MyBookInRAM
+   Definitions
+      At line 33 in file test00.s
+   Uses
+      None
+Comment: MyBookInRAM unused
+MyNameInRAM 00000000
+
+Symbol: MyNameInRAM
+   Definitions
+      At line 32 in file test00.s
+   Uses
+      At line 12 in file test00.s
+      At line 13 in file test00.s
+
+2 symbols
+344 symbols in table
