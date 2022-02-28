@@ -1,2 +1,0 @@
-Dependencies for Project 'final', Target 'Target 1': (DO NOT MODIFY !)
-F (.\test00.s)(0x621B7E3A)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-I"D:\Programs files\Keil\ARM\PACK\Keil\LPC1700_DFP\2.7.1\Device\Include"-I"D:\Programs files\Keil\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 525" --pd "LPC175x_6x SETA 1"--list .\listings\test00.lst --xref -o .\objects\test00.o --depend .\objects\test00.d)
