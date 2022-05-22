@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a, a, LIC=DSNX7-EKBMN-4AXDE-5BWK1-ULX2K-SUCB7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Middleware:      RL-ARM Real-Time Library Version V4.11
+Toolchain Path:  C:\Keil_v5\\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMP1.DLL V1.26.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TARMP1.DLL V1.25.0.0
+ 
+<h2>Project:</h2>
+C:\Users\st3\Desktop\ADC_Timer_Bar\ADC_Timer.uvprojx
+Project File Date:  12/30/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling ADC_Timer.c...
+ADC_Timer.c(183): warning:  #9-D: nested comment is not allowed
+  #endif /* _GLCD_H */
+ADC_Timer.c: 1 warning, 0 errors
+compiling GLCD_LPC1700.c...
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=4060 RO-data=5612 RW-data=24 ZI-data=608  
+FromELF: creating hex file...
+".\Objects\ADC_Timer.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.3.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\st3\Desktop\ADC_Timer_Bar\RTE
+  C:\Users\st3\Desktop\ADC_Timer_Bar\RTE\Device\LPC1768
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

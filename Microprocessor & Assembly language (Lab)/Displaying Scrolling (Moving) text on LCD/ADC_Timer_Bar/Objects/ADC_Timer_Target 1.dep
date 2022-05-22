@@ -1,0 +1,32 @@
+Dependencies for Project 'ADC_Timer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ADC_Timer.c)(0x64762A3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE\Device\LPC1768-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\objects\adc_timer.o --omf_browse .\objects\adc_timer.crf --depend .\objects\adc_timer.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.H)(0x58491C6A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625F654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE8226)
+I (GLCD.h)(0x4ACA3078)
+F (.\GLCD_LPC1700.c)(0x5AF23AF8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE\Device\LPC1768-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\objects\glcd_lpc1700.o --omf_browse .\objects\glcd_lpc1700.crf --depend .\objects\glcd_lpc1700.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\lpc17xx.h)(0x58491C6A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625F654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
+I (GLCD.h)(0x4ACA3078)
+I (Font_24x16.h)(0x4ACA3078)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x571E6BBC)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x5849BE22)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE\Device\LPC1768-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x5849BE22)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE-I C:\Users\st3\Desktop\ADC_Timer_Bar\RTE\Device\LPC1768-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\LPC17xx.h)(0x58491C6A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625F654)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
