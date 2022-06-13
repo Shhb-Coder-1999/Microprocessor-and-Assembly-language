@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\flash\startup_lpc17xx.o"
+".\flash\system_lpc17xx.o"
+".\flash\core_cm3.o"
+".\flash\blinky.o"
+".\flash\irq.o"
+".\flash\glcd_lpc1700.o"
+".\flash\bg_16bpp_t.o"
+".\flash\bg_16bpp_l.o"
+".\flash\bg_16bpp_r.o"
+".\flash\bg_16bpp_b.o"
+".\flash\arm_ani_16bpp.o"
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: abbas laki, bavar, LIC=P6FVE-51NBD-ZCDJY-IGJ39-TJ5C2-JU6L6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMP1.DLL V1.26.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TARMP1.DLL V1.25.0.0
+ 
+<h2>Project:</h2>
+E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_Timer_Bar\ADC_Timer.uvprojx
+Project File Date:  05/28/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling ADC_Timer.c...
+ADC_Timer.c(22): warning:  #61-D: integer operation result is out of range
+        
+PC_PINCON->PINSEL3= (0x3 << 30); // select ad5 as input of a2d
+ADC_Timer.c(22): warning:  #68-D: integer conversion resulted in a change of sign
+        
+PC_PINCON->PINSEL3= (0x3 << 30); // select ad5 as input of a2d
+ADC_Timer.c(67): warning:  #223-D: function "sprintf" declared implicitly
+        sprintf (snum,"%4d",i);
+ADC_Timer.c(68): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+        GLCD_DisplayString (1,1,snum);
+ADC_Timer.c: 4 warnings, 0 errors
+compiling GLCD_LPC1700.c...
+compiling Joystick_MCB1700.c...
+compiling RTX_Conf_CM.c...
+compiling GPIO_LPC17xx.c...
+compiling PIN_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=10216 RO-data=5700 RW-data=88 ZI-data=3744  
+".\Objects\ADC_Timer.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ::CMSIS:RTOS:1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0
+   * Component: CORE Version: 4.3.0
+   * Component: Keil RTX Version: 4.80.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.3.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: Startup Version: 1.0.0
+   * Component: PIN Version: 1.0.0
+   * Component: GPIO Version: 1.1.0
+   * Component: Joystick Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.3.0.pack
+                ::Board Support:Joystick:1.00 (API)
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: Joystick Version: 1.00
+
+<h2>Collection of Component include folders:</h2>
+  E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_Timer_Bar\RTE
+  E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_Timer_Bar\RTE\Device\LPC1768
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC
+  C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\RTE_Driver
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.3.0\Board
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.80.0
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:PIN:1.0.0
+      Include file:  RTE_Driver\PIN_LPC17xx.h
+      Source file:   RTE_Driver\PIN_LPC17xx.c
+
+   * Component: Keil::Device:GPIO:1.1.0
+      Include file:  RTE_Driver\GPIO_LPC17xx.h
+      Source file:   RTE_Driver\GPIO_LPC17xx.c
+
+   * Component: Keil.MCB1700::Board Support:Joystick:1.0.0
+      Source file:   Boards\Keil\MCB1700\Common\Joystick_MCB1700.c
+
+   * Component: ::Board Support:Joystick:1.00 (API)
+      Include file:  Board\Board_Joystick.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

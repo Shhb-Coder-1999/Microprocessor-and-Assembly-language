@@ -1,0 +1,40 @@
+Dependencies for Project 'Blinky', Target 'LPC1768 Flash': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4B4A92A2)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x4B4BCF5C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.h)(0x4FF53D40)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625F654)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA52AB4)
+F (.\core_cm3.c)(0x4AC98EC0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+F (.\Blinky.c)(0x5AF265FD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\LPC17xx.H)(0x4FF53D40)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625F654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA52AB4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE8226)
+I (GLCD.h)(0x4AC98EC0)
+F (.\IRQ.c)(0x4A027558)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\irq.o --omf_browse .\flash\irq.crf --depend .\flash\irq.d)
+F (.\GLCD_LPC1700.c)(0x5AF1993E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\glcd_lpc1700.o --omf_browse .\flash\glcd_lpc1700.crf --depend .\flash\glcd_lpc1700.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\lpc17xx.h)(0x4FF53D40)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625F654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE8226)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625E298)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include\system_LPC17xx.h)(0x4DA52AB4)
+I (GLCD.h)(0x4AC98EC0)
+I (Font_24x16.h)(0x4AC98EC0)
+F (.\Bg_16bpp_t.c)(0x4AC98EC0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\bg_16bpp_t.o --omf_browse .\flash\bg_16bpp_t.crf --depend .\flash\bg_16bpp_t.d)
+F (.\Bg_16bpp_l.c)(0x4AC98EC0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\bg_16bpp_l.o --omf_browse .\flash\bg_16bpp_l.crf --depend .\flash\bg_16bpp_l.d)
+F (.\Bg_16bpp_r.c)(0x4AC98EC0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\bg_16bpp_r.o --omf_browse .\flash\bg_16bpp_r.crf --depend .\flash\bg_16bpp_r.d)
+F (.\Bg_16bpp_b.c)(0x4AC98EC0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\bg_16bpp_b.o --omf_browse .\flash\bg_16bpp_b.crf --depend .\flash\bg_16bpp_b.d)
+F (.\ARM_Ani_16bpp.c)(0x4AC98EC0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --diag_suppress 550-I E:\Sajjad\Lessons\MicroLPC1768\LPC1768\Example\ADC_ShowonBar\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DLPC175x_6x-o .\flash\arm_ani_16bpp.o --omf_browse .\flash\arm_ani_16bpp.crf --depend .\flash\arm_ani_16bpp.d)
+F (.\Abstract.txt)(0x4AC98EC0)()
