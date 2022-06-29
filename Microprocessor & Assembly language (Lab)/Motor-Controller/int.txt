@@ -1,0 +1,8 @@
+25 = switch between auto and manual
+26 = power on motor in manual mode
+27 = slower
+28 = faster
+29 = change F (40 or 50 )
+------------------------------------
+26/100*3.3 = 0.859
+0 - 3.3
